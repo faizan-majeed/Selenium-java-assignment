@@ -4,7 +4,6 @@ import com.aventstack.extentreports.Status;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
-import org.testng.annotations.AfterSuite;
 import utils.ExtentManager;
 import utils.ExtentTestManager;
 import utils.LogUtil;

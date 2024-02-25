@@ -1,13 +1,10 @@
 package basetest;
 
-import com.aventstack.extentreports.Status;
 import listeners.TestListener;
-import org.testng.ITestResult;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import pages.BasePage;
-import pages.HomePage;
 import utils.*;
 
 public class BaseTest {
