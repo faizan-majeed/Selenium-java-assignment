@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="streamed Inc" parallel="none">
+	<listeners>
+		<listener class-name="listeners.TestListener" />
+	</listeners>
+
+	<test name="Cart Functionality">
+		<classes>
+			<class name="test_shopnow.VerifyUserIsAbleToAddProductToCart" />
+			<class name="test_shopnow.VerifyUserIsAbleToRemoveProductFromCart" />
+		</classes>
+	</test>
+</suite>
